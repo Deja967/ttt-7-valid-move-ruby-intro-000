@@ -1,5 +1,5 @@
 # code your #valid_move? method here
-def valid_move?(board, index = (0 - 9))
+def valid_move?(board, index)
   board[index] == " "
   board[index] == "X"
   board[index] == "X" || board[index] == "O"
