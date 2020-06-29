@@ -9,3 +9,4 @@ end
 def position_taken?
   if index.between(0, 8)
   end
+end
